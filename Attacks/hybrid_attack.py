@@ -3,7 +3,7 @@ import hashlib
 
 def hybrid_attack(password_hash, dictionary_file, min_length, max_length, charset):
     """
-    Hybrid attack to crack a password hash using a combination of dictionary and brute-force attacks.
+    Hybrid attack.
     """
     with open(dictionary_file, 'r') as f:
         # Dictionary attack using common passwords
